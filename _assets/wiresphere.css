@@ -140,7 +140,7 @@ a.nice-link:hover>.hover>span:nth-child(4) {
     background: url(../_assets/noise.gif)
 }
 .stage>.backgroundStack>.backgroundStack-pic {
-    background: url(../_pics/background.webp) center center no-repeat;
+    background: url(../_pics/background.jpg) center center no-repeat;
     background-size: cover
 }
 .stage>.backgroundStack>.backgroundStack-3d {
@@ -297,7 +297,7 @@ screen and (max-height: 767px) {
     transform: translateX(100%);
     -webkit-transition: .4s all ease-in-out;
     transition: .4s all ease-in-out;
-    background-image: url('/_pics/background.webp');
+    /* background-image: url('/_pics/background.webp'); */
 }
 
 .wrapper {
@@ -394,7 +394,7 @@ screen and (max-height: 767px) {
 }
 .content .content-content.content-content--contact .contact-grid>li>.wrapper {
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%)
@@ -425,11 +425,11 @@ screen and (max-height: 767px) {
 }
 
 .underline-width{
-    width: 80vh;
+    width: 100%;
 }
 
 .line{
-    width: 50%;
+    width: 75%;
     border-bottom:2px solid #878787;;
 }
 
@@ -714,13 +714,12 @@ screen and (max-height: 767px) {
     background-color: rgba(0,0,0,.4);
     border: solid rgba(0,0,0,.4) 1px; 
     border-radius: 15px;
-    width: 76%; 
+    width: 75%; 
     padding: 20px;
 }
 
 .contact-us{
     display: flex;
-    width: 80%;
 }
 
 .contact-us-logo{
@@ -739,7 +738,7 @@ screen and (max-height: 767px) {
 .contact-us-icons{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 27px;
 }
 
@@ -780,8 +779,8 @@ screen and (max-height: 767px) {
 
 .stage-logo-1{
     position: absolute;
-    top: 40px;
-    left: 40px;
+    top: 14px;
+    left: 15px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -828,7 +827,7 @@ screen and (max-height: 767px) {
 
 @media screen and (max-width: 1120px) {
     .container{
-        padding: 20px 40px;    
+        padding: 20px 25px;    
         
     }
 
@@ -842,7 +841,17 @@ screen and (max-height: 767px) {
     }
 
     .fourth-container{
-        padding: 20px 40px;
+        padding: 20px 20px;
+    }
+
+    .contact-us-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .contact-us-text p {
+        font-size: 12px;
     }
     
     .box-container{
