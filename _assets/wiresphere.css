@@ -906,6 +906,7 @@ screen and (max-height: 767px) {
         width: 300px;
         height: 300px;
         border-radius: 10%;
+        object-fit: cover;
     }
     .content-textwrapper h2{
         color: #00e0ce;
